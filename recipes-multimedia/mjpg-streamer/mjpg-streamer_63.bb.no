@@ -1,0 +1,18 @@
+DESCRIPTION = "MJPG-Streamer"
+SECTION = "multimedia"
+PRIORITY = "optional"
+DEPENDS = "jpeg"
+PR = "r0"
+LICENSE = "GPLv2"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=751419260aa954499f7abaabaa882bbe"
+
+SRC_URI = "http://downloads.sourceforge.net/project/mjpg-streamer/mjpg-streamer/Sourcecode/mjpg-streamer-r${PV}.tar.gz \
+"
+
+EXTRA_OECONF = ""
+PARALLEL_MAKE = ""
+
+S = "${WORKDIR}/mjpg-streamer-r63"
+
+SRC_URI[md5sum] = "1c424b5441a2bf8379cdecd7dbebc935"
+SRC_URI[sha256sum] = "311d00b48c638f95e5e4837ad6aa5c54d76b0824a2b8e5f7c59a4b6f2652f4f8"
